@@ -1,7 +1,7 @@
 function createCounter(){
-    let count = 0;
+    let count = 10;
     return function(){
-        count++;
+        count+=2;
         document.getElementById("count").innerText=count;
     }
 }
