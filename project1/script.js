@@ -1,3 +1,3 @@
 document.getElementById("btn").addEventListener("click", function () {
-    alert("hello,Megha");
-});
+alert("hello,Megha");
+});
